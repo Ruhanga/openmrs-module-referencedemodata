@@ -27,7 +27,6 @@ import org.openmrs.module.referencedemodata.condition.DemoConditionGenerator;
 import org.openmrs.module.referencedemodata.diagnosis.DemoDiagnosisGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@OpenmrsProfile(openmrsPlatformVersion = "2.2.* - 9.*")
 public class DemoDiagnosisGeneratorImpl implements DemoDiagnosisGenerator {
 
 	private DiagnosisService diagnosisService;
